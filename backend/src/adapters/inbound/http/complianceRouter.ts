@@ -23,12 +23,13 @@ complianceRouter.get("/adjusted-cb", async (req, res) => {
   const year = Number(req.query.year);
 
   // TEMPORARY DEMO DATA — replace later with DB values
-  const ships = [
-    { shipId: "V-001", cb_before: 1200 },
-    { shipId: "V-002", cb_before: -500 },
-    { shipId: "V-003", cb_before: 300 },
-    { shipId: "V-004", cb_before: -200 }
-  ];
+const ships = [
+  { shipId: "V-001", cb_before: 1200 },
+  { shipId: "V-002", cb_before: -50 },
+  { shipId: "V-003", cb_before: 300 },
+  { shipId: "V-004", cb_before: -200 }
+];
+
 
   return res.json(ships);
 });
