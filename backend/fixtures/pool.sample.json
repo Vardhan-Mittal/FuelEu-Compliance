@@ -1,0 +1,21 @@
+{
+  "year": 2025,
+  "members": [
+    {
+      "shipId": "S1",
+      "cbBefore": 12000
+    },
+    {
+      "shipId": "S2",
+      "cbBefore": -5000
+    },
+    {
+      "shipId": "S3",
+      "cbBefore": -3000
+    },
+    {
+      "shipId": "S4",
+      "cbBefore": 1000
+    }
+  ]
+}
